@@ -10,4 +10,4 @@ class DiscordBot(object):
             print("The bot is ready...")
             await client.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="with stonks"))
 
-        client.run('ODA2OTc4NTAyMjcyMjIxMjA1.YBxTSw.keHQ6BJaGjArgFTbsaVsLXnajfk')
+        client.run('token')
