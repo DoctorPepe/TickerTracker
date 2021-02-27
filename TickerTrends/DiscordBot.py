@@ -8,6 +8,6 @@ class DiscordBot(object):
         @client.event
         async def on_ready():
             print("The bot is ready...")
-            await client.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="with stonks"))
-
+            await client.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name="with stonks")
+        
         client.run('token')
